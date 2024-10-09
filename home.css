@@ -166,9 +166,19 @@ h3 {
     display: none;
   }
 }
+@media (max-width: 380px) {
+  .se2_style {
+    right: -20px;
+    
+    
+  }
+}
+
 @media (max-width: 680px) {
   .se2_style {
     width: 400px;
+    justify-content: center;
+    top: 20px;
   }
 }
  @media (min-width: 1200px) {
